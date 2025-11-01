@@ -4,9 +4,15 @@ cd git_challenge
 
 git init
 
+echo "Hello, world!" >> hello_world.txt
+
 git add hello_world.txt
 
-git commit -m "Hello, world!コミット"
+git commit -m "add hello_world.txt"
+
+git log --oneline
+
+echo "こんにちは、世界！" >> hello_world.txt
 
 git add hello_world.txt
 
